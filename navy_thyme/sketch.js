@@ -32,7 +32,7 @@ function draw() {
 
     let charX = floor(mouseX / gridSize);
     let charY = floor(mouseY / gridSize);
-    let clusterSize = 15; // Increased size of the pixel cluster around the mouse pointer
+    let clusterSize = 50; // Increased size of the pixel cluster around the mouse pointer
 
     let rows = asciiArt.split('\n');
     for (let y = 0; y < rows.length; y++) {
